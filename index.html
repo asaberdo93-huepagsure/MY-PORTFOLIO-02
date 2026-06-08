@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <header class="header">
+    <div class="header-content">
+        <img src="anton.jpg" alt="Anton" class="profile-pic">
+        <div>
+            <h1> I miss you :<</h1>
+            <p>-Anton Josh</p>
+            <button class="btn" onclick="scrollToProjects()">See My Projects</button>        
+            </div>            
+        </div>
+    </div>
+</header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am Anton Josh Saberdo 20 years old gikapoy nas Pilipinas</p>
+  </section>
+
+  <section class="projects">
+    <h2>Sit back and RELAX</h2>
+    
+    <div class="card-container">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Joshua Garcia (Bisaya Version)</p>
+            <div class="card-music">
+                <button onclick="toggleMusic('music1', 'btn1')" id="btn1">🔇 Play</button>
+                <audio id="music1" loop>
+                    <source src="lofi1.m4a" type="audio/mp4">
+                </audio>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Daniel Padillia</p>
+            <div class="card-music">
+                <button onclick="toggleMusic('music2', 'btn2')" id="btn2">🔇 Play</button>
+                <audio id="music2" loop>
+                    <source src="lofi2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>coming soon</p>
+            <div class="card-music">
+                <button onclick="toggleMusic('music3', 'btn3')" id="btn3">🔇 Play</button>
+                <audio id="music3" loop>
+                    <source src="lofi3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Project 4</h3>
+            <p>coming soon</p>
+            <div class="card-music">
+                <button onclick="toggleMusic('music4', 'btn4')" id="btn4">🔇 Play</button>
+                <audio id="music4" loop>
+                    <source src="lofi4.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <footer>
+    <p>Contact me at: asaberdo93@addsu.edu.ph</p>
+  </footer>
+
+  <button onclick="scrollToProjects()" class="btn">View My Projects</button>
+  <script src="script.js"></script>
+</body>
+</html>1 
